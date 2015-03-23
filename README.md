@@ -6,8 +6,8 @@ One of the promise of distributed computing is fault tolerance by mean a computi
 
 A example of specifying of a fault tolerance system are
 
-* `2*f + 1`: if we have `2*f + 1` components then system can tolerate failure of `f` components
-* `3*f + 1`: if we have `3*f + 1` components then system can tolerate failure of `f` components
+* `2*f + 1`: if we have systme of `2*f + 1` components then the system can tolerate failure of `f` components
+* `3*f + 1`: if we have system of `3*f + 1` components then the system can tolerate failure of `f` components
 
 **Distributed consensus**
 
