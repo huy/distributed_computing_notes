@@ -4,11 +4,6 @@
 
 One of the promise of distributed computing is fault tolerance by mean a computing system is resilient to a predicted and un predicted failure of its components. A degree of fault tolerance indicates which and how many components can fail under certain assumption without compromising the intended functionality of the system.
 
-Formular is used for specifying of a fault tolerance system, e.g.
-
-* `2*f + 1`: with `2*f + 1` components then the system can tolerate failure of `f` components
-* `3*f + 1`: with `3*f + 1` components then the system can tolerate failure of `f` components
-
 **State Machine Replication**
 
 If we view our system as a finite state machine - [FSM](http://en.wikipedia.org/wiki/Finite-state_machine), then one way to archive fault tolerance is maintain one or several replicated machines. Each replicated machine can be hosted in different physical box to be safe against hardware failure.
