@@ -11,7 +11,7 @@ Formular is used for specifying of a fault tolerance system, e.g.
 
 **Replicated machine**
 
-If we view our system as a finite state machine - (FSM)[http://en.wikipedia.org/wiki/Finite-state_machine], then one way to archive fault tolerance is maintain one or several replicated machine. Each replicated machine can be hosted in different physical box to be safe against hardware failure.
+If we view our system as a finite state machine - [FSM](http://en.wikipedia.org/wiki/Finite-state_machine), then one way to archive fault tolerance is maintain one or several replicated machine. Each replicated machine can be hosted in different physical box to be safe against hardware failure.
 
 At the beginning all state machines are the same (in both state and transition functions) and events processed by one machine will be executed in exact order in other machine. 
 
