@@ -15,7 +15,7 @@ If we view our system as a finite state machine - [FSM](http://en.wikipedia.org/
 
 At the beginning all state machines are the same (in both state and transition functions) and events processed by one machine will be executed in exact order in other machine. 
 
-To be consistent from client point of view, these replicas need to agree on a strict sequence of executed events at any point in time. This kind of agreement (also refered to as distrtibuted consesnsus) is the main concern and is addressed by employing distributed algorithm (aka protocol).
+To be consistent from client point of view, these replicas need to agree on a strict sequence of executed events at any point in time. This kind of agreement (also refered to as distrtibuted consesnsus) is addressed by employing distributed algorithm (aka protocol).
 
 **Distributed consensus**
 
