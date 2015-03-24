@@ -19,7 +19,7 @@ To be consistent from client point of view, these replicas need to agree on a st
 
 **Distributed consensus**
 
-One of concern of distributed computing is how to reach an agreement among N parties. Parties comunicate with each other asynchronously using non reliable network in which message can be lost, duplicated, reordered. In extreme, a party may pass a false message to other either intentionaly or accidently, an phenomena described as byzantine problem.
+One of concern of distributed computing is how to reach an agreement among N parties. Parties comunicate with each other asynchronously using non reliable network in which messages can be lost, duplicated, reordere; parties can crash, restart. In extreme, a party may pass a false message to other either intentionaly or accidentally, an phenomena described as byzantine problem.
 
 Algorithm solving distributed consensus relies on quorums to make decisions. There are several distributed consensus algorithms and their implementation that are successfully deployed in practices.
 
@@ -32,4 +32,5 @@ Examples are
 
 * http://research.google.com/archive/chubby.html
 * https://raftconsensus.github.io/
+* http://en.wikipedia.org/wiki/Byzantine_fault_tolerance
 
