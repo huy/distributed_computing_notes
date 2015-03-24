@@ -23,7 +23,7 @@ One of concern of distributed computing is how to reach an agreement among N par
 
 Algorithm solving distributed consensus relies on quorums to make decisions. There are several distributed consensus algorithms and their implementation that are successfully deployed in practices.
 
-Example are
+Examples are
 
 * Paxos - The very first algorithm that solves distributed consensus problem among replicated machines.
 * RAF - Simplification of Paxos emphasize on understandability and easy to implement
