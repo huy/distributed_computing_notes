@@ -26,7 +26,7 @@ Algorithm solving distributed consensus relies on quorums to make decisions. The
 Examples are
 
 * Paxos - The very first algorithm that solves distributed consensus problem among replicated machines.
-* RAF - Simplification of Paxos emphasize on understandability and easy to implement
+* RAF - Simplification of Paxos emphasize on understandability and easy to implement.
 
 **References**
 
