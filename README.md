@@ -28,5 +28,8 @@ Example are
 * Paxos - The very first algorithm that solves distributed consensus problem among replicated machines.
 * RAF - Simplification of Paxos emphasize on understandability and easy to implement
 
+**References**
 
+* http://research.google.com/archive/chubby.html
+* https://raftconsensus.github.io/
 
