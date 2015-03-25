@@ -23,7 +23,7 @@ Examples of distributed consensus protocols are
 * Paxos - The very first algorithm that solves distributed consensus problem among replicated machines.
 * RAF - Simplification of Paxos emphasize on understandability and easy to implement.
 
-It is prove that under asumption of no party lying (they can however fail arbitrarily),`2*f + 1` replicas can tolerate failure of `f` replicas. The system of `3*f + 1` replicas can safely work if no more than `f` crash or fabricate messages passed to other in any malicious way.
+It is prove that under asumption of no party lying (they can however fail arbitrarily),`2*f + 1` replicas can tolerate failure of `f` replicas. The system of `3*f + 1` replicas can safely work if no more than `f` crash or fabricate messages passed to other in any malicious ways.
 
 **Ad hoc protocol**
 
