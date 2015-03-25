@@ -6,7 +6,7 @@ One of the promise of distributed computing is fault tolerance by mean a computi
 
 **State Machine Replication**
 
-If we view our system as a finite state machine - [FSM](http://en.wikipedia.org/wiki/Finite-state_machine), then one way to archive fault tolerance is maintain one or several replicated machines. Each replicated machine can be hosted in different physical box to be safe against hardware failure.
+If we view our system as a finite state machine - [FSM](http://en.wikipedia.org/wiki/Finite-state_machine), then one way to archive fault tolerance is maintain several replicated machines. Each replicated machine can be hosted in different physical box to be safe against hardware failure.
 
 At the beginning all state machines are the same (in both state and transition functions) and events processed by one machine will be executed in exact order in other machines. 
 
