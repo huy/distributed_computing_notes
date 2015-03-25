@@ -2,7 +2,12 @@
 
 **Fault tolerance**
 
-One of the promise of distributed computing is fault tolerance by mean a computing system is resilient to a predicted and un predicted failure of its components. The fault tolerance can be asserted in different angles e.g. a) consistency - no data is lost; b) automatic recovery without human intervention; c) MTTR - mean time to repair.
+One of the promise of distributed computing is fault tolerance by mean a computing system is resilient to a predicted and un predicted failure of its components. 
+The fault tolerance can be asserted in different angles e.g. 
+
+a. consistency - no data is lost; 
+b. automatic recovery without human intervention; 
+c. MTTR - mean time to repair.
 
 A degree of fault tolerance indicates which and how many components can fail under certain assumption without compromising the intended functionality of the system.
 
