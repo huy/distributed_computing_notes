@@ -2,7 +2,9 @@
 
 **Fault tolerance**
 
-One of the promise of distributed computing is fault tolerance by mean a computing system is resilient to a predicted and un predicted failure of its components. A degree of fault tolerance indicates which and how many components can fail under certain assumption without compromising the intended functionality of the system.
+One of the promise of distributed computing is fault tolerance by mean a computing system is resilient to a predicted and un predicted failure of its components. The fault tolerance can be asserted in different angles e.g. a) consistency - no data is lost; b) automatic recovery without human intervention; c) MTTR - mean time to repair.
+
+A degree of fault tolerance indicates which and how many components can fail under certain assumption without compromising the intended functionality of the system.
 
 **State Machine Replication**
 
@@ -28,6 +30,11 @@ It is prove that under asumption of no party lying (they can however fail arbitr
 **Ad hoc protocol**
 
 There are a lot of Ad hoc protocols trying to solve distributed consensus problem. They are usually embedded inside cluster management software. Most of them assume the control of reliable network and lack of proof about correctness in the face of network partition.
+
+**Making a service fault tolerance**
+
+There are
+
 
 **References**
 
