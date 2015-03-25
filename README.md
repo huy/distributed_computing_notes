@@ -5,9 +5,9 @@
 One of the promise of distributed computing is fault tolerance by mean a computing system is resilient to a predicted and un predicted failure of its components. 
 The fault tolerance can be asserted in different angles e.g. 
 
-1. consistency - no data is lost; 
-2. automatic recovery without human intervention; 
-3. MTTR - mean time to repair.
+* consistency - no data is lost; 
+* automatic recovery without human intervention; 
+* MTTR - mean time to repair.
 
 A degree of fault tolerance indicates which and how many components can fail under certain assumption without compromising the intended functionality of the system.
 
@@ -38,7 +38,10 @@ There are a lot of Ad hoc protocols trying to solve distributed consensus proble
 
 **Making a service fault tolerance**
 
-There are
+There are two aproaches to make a service fault tolerance
+
+1. embed distributed consesus protocol into service itself
+2. use external coordination service
 
 
 **References**
