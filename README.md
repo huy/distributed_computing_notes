@@ -25,6 +25,10 @@ Examples of distributed consensus protocols are
 
 It is prove that under asumption of no party lying (they can however fail arbitrarily),`2*f + 1` replicas can tolerate failure of `f` replicas. The system of `3*f + 1` replicas can safely work if no more than `f` crash or fabricate messages passed to other in any malicious way.
 
+**Ad hoc protocol**
+
+There are a lot of Ad hoc protocols trying to solve distributed consensus problem. They are usually embedded inside cluster management software. Most of them assume the control of reliable network and lack of proof about correctness in the face of network partition.
+
 **References**
 
 * http://research.google.com/archive/chubby.html
