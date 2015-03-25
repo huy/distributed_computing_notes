@@ -1,4 +1,4 @@
-## Distributed computing
+## Distributed computing - Introduction of fault tolerance
 
 **Fault tolerance**
 
